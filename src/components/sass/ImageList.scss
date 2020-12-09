@@ -1,0 +1,12 @@
+.images-list{
+  display:block;
+  column-count:4;
+  column-gap: 20px;
+
+  img{
+    width:100%;
+    height:auto;
+    margin: 4% auto;
+    box-shadow:-3px 5px 15px #000;
+  }
+}

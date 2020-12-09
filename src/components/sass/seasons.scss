@@ -1,0 +1,22 @@
+.seasons{
+  position: relative;
+  width: 100%;
+  height:100vh;
+  background: #5c8cdc;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .top-left {
+    position: absolute;
+    top:10px;
+    left:10px;
+
+  }
+  .bot-right{
+    position: absolute;
+    bottom:10px;
+    right:10px;
+  }
+}

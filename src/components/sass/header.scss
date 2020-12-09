@@ -1,0 +1,39 @@
+.dropdownmenu ul, .dropdownmenu li {
+  margin: 0;
+  padding: 0;
+}
+.dropdownmenu {
+  position: fixed;
+  left:0;
+  top:0;
+  padding: 3px 0;
+  width:100%;
+  z-index:1000;
+
+  background: rgba(46, 52, 58, 0.5 );
+
+  ul {
+    position: relative;
+    width:100%;
+    list-style: none;
+
+    li{
+      float: left;
+      position: relative;
+      width:auto;
+      a{
+        background: #2E343A;
+        color: #FFFFFF;
+        display: block;
+        font: bold 13px/20px sans-serif;
+        padding: 12px 32px;
+        text-align: center;
+        text-decoration: none;
+        transition: all .25s ease;
+        &:hover{
+          background: #000;
+        }
+      }
+    }
+  }
+}

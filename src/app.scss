@@ -1,0 +1,20 @@
+@import "components/sass/header";
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+//body{
+//  background: url("./components/img/bg-website.png") no-repeat;
+//  background-position: center;
+//  background-attachment: fixed;
+//}
+
+.body-section{
+  position: relative;
+  max-width:80em;
+  margin: 80px auto;
+
+}
